@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/sclDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="true"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/lytContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/your_name"
+                android:inputType="textCapWords"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtAlamat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/city"
+                android:textSize="14sp"
+                android:ems="10" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/province"
+                android:textSize="14sp"
+                android:ems="10" >
+            </EditText>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/shipping_array" />
+
+                <EditText
+                    android:id="@+id/edtName2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/no_color"
+                    android:editable="false"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="7dp"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:visibility="invisible" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnDate"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/header"
+                    android:text="@string/date"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btnTime"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/header"
+                    android:text="@string/time"
+                    android:textColor="@color/text"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtOrderList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:enabled="false"
+                android:gravity="top|left"
+                android:hint="@string/order_list"
+                android:inputType="textMultiLine"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edtComment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="top|left"
+                android:hint="@string/add_comment"
+                android:inputType="textMultiLine"
+                android:padding="7dp"
+                android:textSize="14sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/header"
+                android:text="@string/send_reservation"
+                android:textColor="@color/text"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/prgLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txtAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/alert"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

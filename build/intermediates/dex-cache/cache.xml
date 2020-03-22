@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\libs\Parse-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
+        <dex dex="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\Parse-1.3.0-32c0c7bda2fb2714ebe823e022661256447ec98d.jar" />
+    </item>
+    <item
+        jar="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2-9522ab4be9ab88d920fb8b1b7cdfdf88658608ea.jar" />
+    </item>
+    <item
+        jar="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\libs\signpost-commonshttp4-1.2.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
+        <dex dex="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.2-3fa4795f601c9fa9707110237788bbfbde748df8.jar" />
+    </item>
+    <item
+        jar="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\android-support-v4-4020f8500c7b748c4587368c9b196786aeb3b511.jar" />
+    </item>
+    <item
+        jar="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\libs\signpost-jetty6-1.2.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="50d833636e78a21ac10bfad6fe62b8dac84f4366">
+        <dex dex="D:\Envato\E-CommerceAndroidApp\Workspace\AndroidStudioProjects\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-jetty6-1.2.1.2-ee1d9db7a6fea048ce22743ce1f39aa767c77ff5.jar" />
+    </item>
+
+</items>

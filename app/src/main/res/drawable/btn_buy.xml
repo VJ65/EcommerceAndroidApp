@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this code is used to customize the about icon style -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<!-- when about icon pressed -->
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_buy_pressed" />
+    
+    <!-- when about icon in normal -->
+    <item android:drawable="@drawable/ic_buy" />
+</selector>
